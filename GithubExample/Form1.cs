@@ -16,5 +16,10 @@ namespace GithubExample
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("콰과광!", "알림", MessageBoxButtons.OK, MessageBoxIcon.Error);
+        }
     }
 }
